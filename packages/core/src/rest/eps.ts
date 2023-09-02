@@ -58,7 +58,6 @@ export class CoolEps {
     for (const controller of controllers) {
       result.push(getClassMetadata(CONTROLLER_KEY, controller));
     }
-
     return result;
   }
 
